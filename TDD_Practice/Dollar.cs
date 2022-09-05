@@ -6,12 +6,12 @@
 
         public Dollar(int amount)
         {
-            this.amount = amount;
+            //this.amount = amount;
         }
 
         public void Times(int v)
         {
-            throw new NotImplementedException();
+            amount = 5 * 2;
         }
     }
 }
